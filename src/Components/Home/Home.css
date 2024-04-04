@@ -1,0 +1,110 @@
+#Home {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  overflow-x: hidden;
+}
+
+.bg-image {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.img-background {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* 
+.fixed-caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  background-color: rgba(207, 244, 247, 0.1);
+  border-radius: 30px;
+  padding: 50px;
+} */
+
+/* Home.css */
+
+.fixed-caption {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end; /* Align items to the right */
+  height: 140%;
+  padding-right: 20px;
+}
+
+.caption-paragraph {
+  color: #fff;
+  font-family: "Arial", sans-serif;
+  font-size: 1.6rem;
+  font-weight: bold;
+  text-align: center; /* Align text to center */
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.caption-paragraph .highlight {
+  color: #02cecb;
+}
+
+.caption-paragraph::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8));
+  border-radius: 10px;
+}
+
+.caption-left,
+.caption-right {
+  width: 45%;
+}
+
+.caption-left h1 {
+  font-size: 3rem;
+  color: #fff;
+}
+
+.caption-right p {
+  font-size: 1.5rem;
+  color: #fff;
+  text-align: right;
+  max-width: 100%;
+}
+
+@media (max-width: 768px) {
+  .fixed-caption {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 90%;
+  }
+
+  .caption-left,
+  .caption-right {
+    width: 100%;
+    text-align: center;
+  }
+
+  .caption-right p {
+    text-align: center;
+  }
+}

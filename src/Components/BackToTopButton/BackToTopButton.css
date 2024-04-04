@@ -1,0 +1,22 @@
+.back-to-top-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #92140c;
+  color: #fff;
+  border: none;
+  border-radius: 30%;
+  padding: 10px;
+  cursor: pointer;
+  display: none;
+  transition: background-color 0.3s ease-in-out;
+  z-index: 1000;
+
+  &:hover {
+    background-color: #13587a;
+  }
+
+  &.visible {
+    display: block;
+  }
+}

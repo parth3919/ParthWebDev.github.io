@@ -1,0 +1,97 @@
+@keyframes animate-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.contact-form {
+  background: linear-gradient(
+    109.6deg,
+    rgb(72, 200, 160, 0.2) 11.2%,
+    rgb(32, 40, 48, 0.2) 91.3%
+  );
+  padding: 11px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+.button-name {
+  align-items: center;
+  appearance: none;
+  background-color: #fcfcfd;
+  border-radius: 14px;
+  border-width: 0;
+  box-shadow: rgba(45, 35, 66, 0.2) 0 2px 4px,
+    rgba(45, 35, 66, 0.15) 0 7px 13px -3px, #d6d6e7 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #92140c;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono", monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow 0.15s, transform 0.15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow, transform;
+  font-size: 18px;
+}
+
+.button-name:focus {
+  box-shadow: #d6d6e7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #d6d6e7 0 -3px 0 inset;
+}
+
+.button-name:hover {
+  box-shadow: rgba(45, 35, 66, 0.3) 0 4px 8px,
+    rgba(45, 35, 66, 0.2) 0 7px 13px -3px, #d6d6e7 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button-name:active {
+  box-shadow: #d6d6e7 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+#Contact {
+  background: linear-gradient(
+    89.7deg,
+    rgb(0, 0, 0) -10.7%,
+    rgb(53, 92, 125) 88.8%
+  );
+  padding-bottom: 20px;
+  border-radius: 3%/15%;
+}
+
+.GMap {
+  background: linear-gradient(
+    109.6deg,
+    rgb(72, 200, 160, 0.2) 11.2%,
+    rgb(32, 40, 48, 0.2) 91.3%
+  );
+  padding: 11px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+.info {
+  background-color: rgba(207, 244, 247, 0.3);
+  border-radius: 20px;
+}
+
+.cnt {
+  color: #ffffff;
+}

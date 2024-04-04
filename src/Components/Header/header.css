@@ -1,0 +1,58 @@
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  transition: ease-in 0.5s;
+  height: 5em;
+}
+
+#navbarScrollingDropdown {
+  color: #ffffff;
+}
+#navbarScrollingDropdown:hover {
+  color: #92140c;
+}
+
+.nav-link {
+  color: #ffffff;
+  gap: 20px;
+  font-size: 17px;
+}
+
+.nav-link:hover {
+  color: #92140c;
+  scale: 1.09;
+}
+.navbar-scrolled {
+  background-color: #003459;
+  box-shadow: o 4px 10px rgb(0, 0, 0, 0.15);
+}
+
+.Logo {
+  transition: filter 300ms;
+}
+.Logo:hover {
+  filter: drop-shadow(0 0 4em #646cffaa);
+}
+.Logo.react:hover {
+  filter: drop-shadow(0 0 4em #61dafbaa);
+}
+
+.teamKa {
+  text-underline-offset: none;
+}
+
+#navbarScrollingDropdown .nav-link:hover {
+  background-color: #92140c;
+  color: #fff;
+  z-index: 1000;
+}
+
+.drop {
+  color: darkslategrey;
+}
+
+.drop:hover {
+  scale: none;
+  color: #92140c;
+}
